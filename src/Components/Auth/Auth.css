@@ -1,0 +1,54 @@
+.auth-page{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auth-container-1{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.auth-container-2{
+    height: auto;
+    width: 250px;
+    border:2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.auth-container-1 form{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.auth-container-1 input{
+    width: 200px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+.login-btn{
+    padding: 10px;
+    width: 220px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 20px;
+}
+.login-btn:hover{
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+.handle-switch{
+    color: white;
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+}
+.handle-switch:hover{
+    cursor: pointer;
+    color: rgb(12, 131, 251)
+}

@@ -1,0 +1,28 @@
+.nav-bar{
+    margin: 0px auto;
+    min-height: 50px;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-container-1{
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link{
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    height: 25px;
+    width: auto;
+    padding: 4px 8px 4px 8px;
+}
+.nav-link:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
