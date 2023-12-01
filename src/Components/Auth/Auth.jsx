@@ -15,19 +15,19 @@ const Auth = () => {
                         <>
                     <label htmlFor='name'>
                 <h4>Name:</h4>
-                <input type='text' id='name'/>
+                <input type='text' id='name' placeholder="Name"/>
                 </label><br/>
                  </>}
              <label htmlFor='email'>
                 <h4>Email:</h4>
-             <input type='email' id='email'/>
+             <input type='email' id='email' placeholder="Email"/>
              </label><br/>
              <label htmlFor='password'>
              <div style={{display:"flex" ,justifyContent:'space-between' , alignItems:'center'}}>
                 <h4>Password:</h4>
              {!isSignup && <p style={{fontSize:"13px"}}>Forgot Password?</p>}
              </div>
-             <input type='password' id='password' />
+             <input type='password' id='password'placeholder="Password" />
              </label><br/>
              <button className='login-btn'> { !isSignup ? 'Log In':'SignUp'}</button><br/>
              {
